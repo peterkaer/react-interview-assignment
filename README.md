@@ -28,6 +28,8 @@ The [/profile/{id}](/profile/{id}) page will show the clicked user's information
 
 4. Push your changes to your repository and get ready to present your code at the interview by sharing your screen.
 
+If you have any questions regarding the assignment you can contact [lasse@bluebirdday.dk](mailto:lasse@bluebirdday.dk) with any questions.
+
 Good luck! 🙂
 
 ### Screenshots of example solution
