@@ -1,5 +1,5 @@
 # React.js / Next.js / Chakra UI / TanStack Query interview assignment
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) and [`Chakra UI`](https://v2.chakra-ui.com/getting-started/nextjs-app-guide).
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app), [`Chakra UI`](https://v2.chakra-ui.com/getting-started/nextjs-app-guide), and [`TanStack Query`](https://tanstack.com/query/latest/docs/framework/react/installation).
 
 ## Getting Started
 1. Fork this repo on GitHub and clone it to your local PC.
@@ -17,16 +17,16 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
     ```
 
 ## The task
-On the [/](/) route create a list of accordions displaying the information from the public API https://reqres.in/api/users. If needed, you can query the information for a single user on https://reqres.in/api/users/{id}.
+1. On the [/](/) route create a list of accordions displaying the information from the public API https://reqres.in/api/users. If needed, you can query the information for a single user on https://reqres.in/api/users/{id}.
 
-There's no need to validate the response from the API, but please think about how you would do it, as we may discuss it at the interview.
+    There's no need to validate the response from the API, but please think about how you would do it, as we may discuss it at the interview.
 
-Clicking on the user's first name will redirect the user to [/profile/{id}](/profile/{id}) where ID is the user's ID. 
+2. Clicking on the user's first name will redirect the user to [/profile/{id}](/profile/{id}) where ID is the user's ID. 
 The [/profile/{id}](/profile/{id}) page will show the clicked user's information.
 
-Use Next.js for routing, Chakra UI for components and styling and TanStack Query for querying the API.
+3. Use Next.js for routing, Chakra UI for components and styling and TanStack Query for querying the API.
 
-Push your changes to your repository and get ready to present your code at the interview by sharing your screen.
+4. Push your changes to your repository and get ready to present your code at the interview by sharing your screen.
 
 Good luck! 🙂
 
