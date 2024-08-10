@@ -1,36 +1,35 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# React.js / Next.js / Chakra UI / TanStack Query interview assignment
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) and [`Chakra UI`](https://v2.chakra-ui.com/getting-started/nextjs-app-guide).
 
 ## Getting Started
+1. Fork this repo on GitHub and clone it to your local PC.
 
-First, run the development server:
+2. Install Node.js
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+3. Run
+    ```bash
+    npm i
+    ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+4. Run
+    ```bash
+    npm run dev
+    ```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## The task
+On the [/](/) route create a list of accordions displaying the information from the public API https://reqres.in/api/users. If needed, you can query the information for a single user on https://reqres.in/api/users/{id}.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+Clicking on the user's first name will redirect the user to [/profile/{id}](/profile/{id}) where ID is the user's ID. 
+The [/profile/{id}](/profile/{id}) page will show the clicked user's information.
 
-## Learn More
+Use Next.js for routing, Chakra UI for components and styling and TanStack Query for querying the API.
 
-To learn more about Next.js, take a look at the following resources:
+Push your changes to your repository and get ready to present your code at the interview by sharing your screen.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Good luck! 🙂
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+### Screenshots of example solution
 
-## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+You will be assesed on your ability to understand the requirements and your code quality. 
+Your solution does not have to look like the example solution as long as it fulfills the requirements.
