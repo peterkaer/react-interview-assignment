@@ -1,4 +1,3 @@
-// app/layout.tsx
 import { Providers } from './providers'
 
 export default function RootLayout({
@@ -8,6 +7,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang='en'>
+      <head>
+        <title>{`React.js / Next.js / Chakra UI / TanStack Query interview assignment`}</title>
+      </head>
       <body>
         <Providers>{children}</Providers>
       </body>
